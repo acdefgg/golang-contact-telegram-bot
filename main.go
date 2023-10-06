@@ -27,7 +27,7 @@ func splitMessage(message string) []string {
 }
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("6681062385:AAGcG4hLcEjug9bNd8zQ-L4-qpoQBXGKANA")
+	bot, err := tgbotapi.NewBotAPI("YOUR_BOT_TOKEN")
 	if err != nil {
 		log.Fatal(err)
 	}
